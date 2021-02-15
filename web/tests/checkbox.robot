@@ -5,9 +5,9 @@ Test Setup          Nova sessão
 Test Teardown       Encerra sessão
 
 *** Variables ***
-${check_thor}       id:thorteste
-${check_iron}       css:input[value='iron-man-teste']
-${check_panther}    xpath://*[@id='checkboxes']/input[7teste]
+${check_thor}       id:thor
+${check_iron}       css:input[value='iron-man']
+${check_panther}    xpath://*[@id='checkboxes']/input[7]
 
 *** Test Cases ***
 Marcando opção com ID
